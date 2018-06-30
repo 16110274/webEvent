@@ -11,6 +11,10 @@ body {
 
 strong { font-weight: 500; }
 
+li{
+	list-style-type: none;
+}
+
 /**
 a, a:hover, a:focus {
 	color: #19b9e7;
