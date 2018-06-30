@@ -105,7 +105,8 @@ img { max-width: 100%; }
 .top-content .description a:focus { border-bottom: 1px dotted #fff; }
 
 .form-box {
-	margin-top: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .form-top {
@@ -167,7 +168,7 @@ img { max-width: 100%; }
 
 .middle-border {
 	min-height: 300px;
-	margin-top: 170px;
+	margin-top: 70px;
 	border-right: 1px solid #fff;
 	border-right: 1px solid rgba(0, 0, 0, 0.6);
 }
