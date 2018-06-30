@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Portal Event Kampus - Organizer Account</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -50,7 +50,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="event-browse.html">Browse Events</a></li>
         <li><a href="#">Organize</a></li>
-      <li><a href="help.html">Help</a></li>
+           <li><a href="help.html">Help</a></li>
         <li><a href="contact.html">Contact</a></li>
            </li>
       </ul>
@@ -80,62 +80,71 @@
   <div class="row content">
     <div class="col-sm-2 sidenav hidden-xs">
     <br>
-    <img src="img/user.jpg" width="100px" class="img-responsive center-block"><br><br>
+    <img src="img/organizer.png" width="100px" class="img-responsive center-block"><br><br>
       <ul class="nav nav-pills nav-stacked">
-        <li><a href="user-dashboard.html">Dashboard</a></li>
-        <li  class="active"><a href="user-tfpage.html">Events Management</a></li>
-        <li><a href="user-account.html">Account</a></li>
+        <li><a href="organizer-dashboard.html">Dashboard</a></li>
+        <li><a href="#section2">Events Management</a></li>
+        <li class="active"><a href="#section3">Account</a></li>
         <li><a href="#section3">Settings</a></li>
-      </ul>
+      </ul><br>
     </div>
-   
-<div class="col-sm-6">
-      <div class="none">
-        <!--<h4>Dashboard</h4>-->
+    
 
-     
+<div class="col-sm-10">
+      <div class="well">
+        <p>Welcome back Amikom!, pastikan anda membuat perubahaan yang sesuai</p>
+      </div>
 
+</div>
 
-        <h4><b> Konfirmasi Pembayaran </b><br></h4>
+          <div class="col-sm-10">
+      <div class="well">
+
+        <p>Your Account Information
    <!-- <button onclick="myFunction()">Create</button></p>  -->
            <div id="myDIV">
-            <br>
-            <form>
-  <div class="form-group">
- <label for="NamaEvent">Nama Event</label>
-    <select class="form-control" id="Semnas Kewirausahaan"From Habit to Profit">
-      <option>Semnas Kewirausahaan "From Habit to Profit"</option>
-
-</select></div>
-
-  <div class="form-group">
-     <div class="form-group">
-    <label for="RekeningNamaAsal">Nama Pengirim</label>
-    <textarea class="form-control" id="RekeningNamaAsal" rows="1"></textarea>
-  </div>
-  <div class="form-group">
-     <label for="NoRekeningAsal">Rekening Asal</label>
-    <textarea class="form-control" required="true" id="NoRekeningAsal" rows="1"></textarea>
-  </div>
-  <div class="form-group">
- <label for="NoRekeningTujuan">Rekening Tujuan</label>
-    <select class="form-control" id="NoRekeningTujuan">
-      <option>0115-01-016368-53-2 (BRI) (An. KHAIRUNNISA) </option>
+           
  
-    </select>
-  </div>
-
-
-    <label for="exampleInputFile">File input</label>
-    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+  <div class="form-group">
+    <label for="eventName">Nama</label>
+    <textarea class="form-control" id="eventName" rows="1">Amikom Yogyakarta</textarea>
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <div class="form-group">
+      <label for="eventPlace">Alamat</label>
+    <textarea class="form-control" id="eventPlace" rows="1">Jl. Ring Road Utara, Condong Catur, Depok, Sleman, Yogyakarta, Indonesia</textarea>
+  </div>
+  
+  <div class="form-group">
+      <label for="eventPlace">Peta Lokasi</label>
+    <textarea class="form-control" id="eventPlace" rows="1">/*diganti Maps*/</textarea>
+  </div>
+ 
+  <div class="form-group">
+    <label for="eventDesc">Deskripsi Anda</label>
+    <textarea class="form-control" id="eventDesc" rows="4">Universitas AMIKOM Yogyakarta adalah salah satu perguruan tinggi swasta yang ada di Yogyakarta. Perguruan tinggi ini didirikan pada tanggal 29 Desember 1992.</textarea>
+  </div>
+
+  <div class="form-group">
+      <label for="eventCP">Contact Person</label>
+    <textarea class="form-control" id="eventCP" rows="1">(0274) 884201 - 207</textarea>
+  </div>
+  
+  <div class="form-group">
+      <label for="eventCP">E-Mail</label>
+    <textarea class="form-control" id="eventCP" rows="1">amikom@amikom.ac.id</textarea>
+  </div>
+  
+    <div class="form-group">
+      <label for="eventCP">Website</label>
+    <textarea class="form-control" id="eventCP" rows="1">http://www.amikom.ac.id</textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Save Changes</button>
 </form>
 </div>
-<!--
- <body onload="myFunction()">
+
+<!-- <body onload="myFunction()">
 
   <script>
 function myFunction() {
@@ -146,30 +155,28 @@ function myFunction() {
         x.style.display = "none";
     }
 }
-</script> --> 
+</script> -->
 
 </form>
 </div>
-</p></div>
+<div>
 
-
-
-<div class="col-sm-4">
-      <div class="none">
-        <!--<h4>Dashboard</h4>-->
-
-     
-
-          <div class="col-sm-10">
       <div class="well">
+        <!--<h4>Dashboard</h4>-->
+        <p>Welcome back Amikom Yogyakarta!, have a nice day :)</p><br>
+      </div>
 
-        <p><b>Detail event</b><br>
-   <!-- <button onclick="myFunction()">Create</button></p>  -->
-<br>
-      <img src="img/event/event02.jpg" width="280">
-      <p>Biaya pendaftaran : Rp. 30.000</p>
 </div>
-</p></div></div></div></div></div></div>
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+
+</div>
+
+
 
 <footer>
   <div class="container">
@@ -206,6 +213,5 @@ function myFunction() {
 <footer class="container-fluid text-center">
   <p>&copy; Portal Event Kampus, 2018.</p>
 </footer>
-
 </body>
 </html>
