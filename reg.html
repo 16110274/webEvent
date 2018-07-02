@@ -58,10 +58,8 @@
             <div class="form-box">
               <div class="form-top">
                 <div class="form-top-left">
-                  <!--h3>Login</h3-->
-				  <h3>Register with Your University ID</h3>
-                  <!--p>Enter username and password to log on:</p-->
-				  <p>Choose your univeristy and enter your ID</p>
+        				  <h3>Register with Your University ID</h3>
+                  <p>Choose your univeristy and enter your ID</p>
                   </div>
                    <div class="form-top-right">
                       <i class="fa fa-key"></i>
@@ -70,29 +68,21 @@
                <div class="form-bottom">
                   <form role="form" action="" method="post" class="login-form">
                     <div class="form-group">
-                     <!--label class="sr-only" for="form-username">Username</label>
-                      <input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username"-->
-					  
+                      <label>Choose Your University</label>
                       <select id="univ" name="univ" class="form-control input-md">
-					  <option value="">- choose university -</option>
+					            <option value="">- choose university -</option>
                       <option value="Universitas Amikom Yogyakarta">Universitas Amikom Yogyakarta</option>
                       <option value="Universitas Gadjah Mada">Universitas Gadjah Mada</option>
                       </select>
-                      
                     </div>
 					
                     <div class="form-group">
-                     <!--label class="sr-only" for="form-password">Password</label>
-                      <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password"-->
-					  
-					 <label class="sr-only">University ID</label>
+         					  <label>University ID</label>
                       <input type="text" name="univID" placeholder="University ID" class="form-password form-control">
-					  
                       </div>
-                      <!--button type="submit" class="btn">Sign in!</button-->
-					  <button type="submit" class="btn">Sign me Up!</button>
+        					  <button type="submit" class="btn">Sign me Up!</button>
                     </form>
-                  </div>
+                </div>
               </div>
                       
             <!--div class="social-login">
@@ -112,7 +102,7 @@
                             
           </div>
                       
-          <div class="col-sm-1 middle-border"></div>
+          <div class="col-sm-1"></div>
           <div class="col-sm-1"></div>
                             
           <div class="col-sm-5">                
@@ -130,30 +120,32 @@
              <div class="form-bottom">
               <form role="form" action="" method="post" class="registration-form">
                <div class="form-group">
-                <label class="sr-only" for="form-first-name">First name</label>
+                <label>Frist Name</label>
                  <input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
                 </div>
                <div class="form-group">
-                <label class="sr-only" for="form-last-name">Last name</label>
+                <label>Last Name</label>
                  <input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
                 </div>
                <div class="form-group">
-                <label class="sr-only" for="form-email">Email</label>
+                <label>Email</label>
                  <input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
                 </div>
-               <div class="form-group"> 
-                  <label class="col-md-3 control-label" for="sms">Gender</label>
-                    <div class="col-md">
-                     <div class="input-group">
-                      <select id="sms" name="sms" class="form-control input-md">
-                      <option value="Male">Male</option>
-                      <option value="Female">Female</option>
-                      </select>
-                      </div>
-                     </div>
-                </div>      
                <div class="form-group">
-                <label class="sr-only" for="form-password">Password</label>
+                <label>Gender</label><br>
+                <label class="radio-inline"><input type="radio" name="optradio">Laki-laki</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Perempuan</label>
+                </div>
+               <div class="form-group">
+                <label>No Hp</label>
+                 <input type="text" name="form-nohp" placeholder="No Hp..." class="form-email form-control" id="form-nohp">
+                </div>
+               <div class="form-group">
+                  <label for="eventDate">Date Of Birth</label><br>
+                  <input type="datetime-local">
+                </div>    
+               <div class="form-group">
+                <label>Password</label>
                 <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
                 </div>
                <button type="submit" class="btn">Sign me up!</button>
@@ -171,10 +163,8 @@
     </div>
   </div>
 </div>
-
-<span>
-  
-</span>
+<br>
+<br>
 
 <footer>
   <div class="container">
